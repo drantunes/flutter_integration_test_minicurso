@@ -3,9 +3,9 @@
 Projeto de exemplo com a configuração de testes de integração no Flutter e a execução no Firebase Test Lab e também a automatização via Github Actions
 
 ## Youtube Vídeos
-[Parte 1: Teste de Integração no Flutter](https://youtu.be/GEvNj7uogYE)
-[Parte 2: Flutter e Firebase Test Lab (Android e iOS)](https://youtu.be/RBoMdhPQX1s)
-Parte 3: Flutter e Github Actions (ToDo)
+- [Parte 1: Teste de Integração no Flutter](https://youtu.be/GEvNj7uogYE)
+- [Parte 2: Flutter e Firebase Test Lab (Android e iOS)](https://youtu.be/RBoMdhPQX1s)
+- Parte 3: Flutter e Github Actions (ToDo)
 
 ## Links de Documentação
 
