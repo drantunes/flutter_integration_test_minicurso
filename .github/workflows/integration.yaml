@@ -32,14 +32,14 @@ jobs:
       - name: Setup Google Cloud SDK
         uses: google-github-actions/setup-gcloud@v0
 
-      # - name: Run Unit tests
-      #   run: flutter test test/unit
+      - name: Run Unit tests
+        run: flutter test test/unit
 
-      # - name: Run Widget tests
-      #   run: flutter test test/widget
+      - name: Run Widget tests
+        run: flutter test test/widget
       
-      # - name: Run Android integration tests
-      #   run: ./integration_android.sh
+      - name: Run Android integration tests
+        run: ./integration_android.sh
       
       - name: Install the Apple certificate and provisioning profile
         env:
