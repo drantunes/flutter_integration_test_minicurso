@@ -12,5 +12,7 @@ gcloud firebase test android run --type instrumentation \
   --orientations=portrait \
   --use-orchestrator \
   --timeout 3m \
-  --results-bucket=gs://<seuprojeto>.appspot.com \
+  --results-bucket=gs://cripto-moedas-app.appspot.com \
   --results-dir=tests/firebase
+
+# substitua cripto-moedas-app pelo id do seu projeto no Firebase
