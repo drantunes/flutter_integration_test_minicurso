@@ -31,10 +31,10 @@ jobs:
 
       - name: Setup Google Cloud SDK
         uses: google-github-actions/setup-gcloud@master
-    
+
       - name: Run Unit tests
         run: flutter test test/unit
-			
+
       - name: Run Widget tests
         run: flutter test test/widget
       
