@@ -22,7 +22,7 @@ jobs:
 
       - name: Run Flutter Pub Get
         run: flutter pub get
-
+        
 			- name: Google Cloud Auth
 				uses: 'google-github-actions/auth@v0'
 	      with:
