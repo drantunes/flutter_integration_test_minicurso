@@ -22,7 +22,7 @@ jobs:
           channel: 'stable'
         run: flutter --version
 
-      - name: Run Flutter Pub Get
+			- name: Run Flutter Pub Get
         run: flutter pub get
 
 			- name: Google Cloud Auth
