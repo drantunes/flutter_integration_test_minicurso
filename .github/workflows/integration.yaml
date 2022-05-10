@@ -7,21 +7,19 @@ jobs:
   Flutter_Tests:
     runs-on: macos-latest
     steps:
-      - name: Get Repository
+        name: Get Repository
         uses: actions/checkout@v3
 
-      - name: Setup Java
+        name: Setup Java
         uses: actions/setup-java@v1
         with:
           java-version: '12.x'
 
-      - name: Setup Flutter SDK
+        name: Setup Flutter SDK
         uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
-
-      - name: Run Flutter Pub Get
-      - run: flutter pub get
+        run: flutter pub get
 
 			- name: Google Cloud Auth
 				uses: 'google-github-actions/auth@v0'
