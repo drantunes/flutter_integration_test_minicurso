@@ -21,8 +21,8 @@ jobs:
           channel: 'stable'
 
       - name: Run Flutter Pub Get
-        run: flutter pub get
-        
+      - run: flutter pub get
+
 			- name: Google Cloud Auth
 				uses: 'google-github-actions/auth@v0'
 	      with:
@@ -32,13 +32,13 @@ jobs:
         uses: google-github-actions/setup-gcloud@master
     
 			- name: Run Unit tests
-				run: flutter test test/unit
+			- run: flutter test test/unit
 			
 			- name: Run Widget tests
-				run: flutter test test/widget
+			- run: flutter test test/widget
       
 			- name: Run Android integration tests
-        run: ./integration_android.sh
+      - run: ./integration_android.sh
       
 			- name: Run iOS integration tests
-        run: ./integration_ios.sh
+      - run: ./integration_ios.sh
