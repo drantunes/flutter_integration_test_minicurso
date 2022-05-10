@@ -2,7 +2,7 @@ output="../build/ios_integ"
 product="build/ios_integ/Build/Products"
 dev_target="15.2"
 
-flutter build ios integration_test/app_test.dart --release --no-codesign
+flutter build ios integration_test/app_test.dart --release
 
 pushd ios
     xcodebuild -workspace Runner.xcworkspace \
