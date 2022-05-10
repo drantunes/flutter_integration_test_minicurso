@@ -19,8 +19,6 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
-
-      - name: Run Flutter Pub Get
       - run: flutter pub get
 
 			- name: Google Cloud Auth
