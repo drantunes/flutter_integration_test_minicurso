@@ -5,7 +5,7 @@ Projeto de exemplo com a configuração de testes de integração no Flutter e a
 ## Youtube Vídeos
 - [Parte 1: Teste de Integração no Flutter](https://youtu.be/GEvNj7uogYE)
 - [Parte 2: Flutter e Firebase Test Lab (Android e iOS)](https://youtu.be/RBoMdhPQX1s)
-- Parte 3: Flutter e Github Actions (ToDo)
+- [Parte 3: Flutter e Github Actions](https://youtu.be/Lo5Wr716fx0)
 
 ## Links de Documentação
 
@@ -24,3 +24,7 @@ Projeto de exemplo com a configuração de testes de integração no Flutter e a
 [https://cloud.google.com/sdk/gcloud/reference/firebase/test/android/run](https://cloud.google.com/sdk/gcloud/reference/firebase/test/android/run)
 
 [https://cloud.google.com/sdk/gcloud/reference/firebase/test/ios/run](https://cloud.google.com/sdk/gcloud/reference/firebase/test/ios/run)
+
+[https://docs.github.com/en/actions](https://docs.github.com/en/actions)
+
+[https://docs.github.com/en/actions/deployment/deploying-xcode-applications/installing-an-apple-certificate-on-macos-runners-for-xcode-development](https://docs.github.com/en/actions/deployment/deploying-xcode-applications/installing-an-apple-certificate-on-macos-runners-for-xcode-development)
