@@ -5,6 +5,7 @@ on:
       - main
 jobs:
   Flutter_Tests:
+    name: Build and test
     runs-on: macos-latest
     steps:
       - name: Get Repository
